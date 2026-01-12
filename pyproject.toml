@@ -1,0 +1,11 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "endstone-respawnmessage"
+version = "0.1.0"
+description = "My first Python plugin for Endstone servers!"
+
+[project.entry-points."endstone"]
+respawnmessage = "endstone_respawnmessage:respawnMessage"
