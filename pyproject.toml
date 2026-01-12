@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "endstone-respawnmessage"
 version = "0.1.0"
-description = "My first Python plugin for Endstone servers!"
+description = "A simple plugin that sends a title and subtitle when you respawn"
 
 [project.entry-points."endstone"]
 respawnmessage = "endstone_respawnmessage:respawnMessage"
